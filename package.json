@@ -1,5 +1,6 @@
 {
-"name": 4FOX-Bot",
+"name": "4FOX-Bot",
+"version": "1.0.0",
 "description": "",
 "main": "mybot.js",
 "scripts": {
