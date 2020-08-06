@@ -1,13 +1,11 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require("./config.json");
-const talkedRecently = new Set();
+
+client.login("NzM4NDEyMDEzMTE3NzY3ODAy.XyLhxg.2RaBGH6mGkITq1gCxZ19CdMZ3Ok");
 
 client.on("ready", () => {
   console.log("4FOX Signing on");
-  client.user.setActivity(`God4L OG bolte!`);
-  client.user.setStatus("online")
-});
+  });
 
 client.on("error", error => {
 console.log(error)
