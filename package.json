@@ -1,0 +1,24 @@
+{
+"name": "4FOX-Bot",
+"version": "1.0.0",
+"description": "",
+"main": "mybot.js",
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+   },
+"repository": {
+    "type": "gift",
+    "url": "git+https://github.com/13ASRamgarhia/4FOX-Bot"
+   },
+  "keyword": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+     "url": "https://github.com/13ASRamgarhia/4FOX-Bot/issues"
+   },
+  "homepage": "https://github.com/13ASRamgarhia/4FOX-Bot#readme",
+  "dependecies": {
+      "discord.js": "^11.4.2"
+     }
+}
+  
