@@ -1,6 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require("./config.json");
+
+client.login("NzM4NDEyMDEzMTE3NzY3ODAy.XyLhxg.2RaBGH6mGkITq1gCxZ19CdMZ3Ok");
+
 const talkedRecently = new Set();
 
 client.on("ready", () => {
