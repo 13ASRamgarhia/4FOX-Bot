@@ -3,13 +3,13 @@ const client = new Discord.Client();
 
 client.login("NzM4NDEyMDEzMTE3NzY3ODAy.XyLhxg.2RaBGH6mGkITq1gCxZ19CdMZ3Ok");
 
-const talkedRecently = new Set();
-
 client.on("ready", () => {
   console.log("4FOX Signing on");
   client.user.setActivity(`God4L OG bolte!`);
   client.user.setStatus("online")
 });
+
+const talkedRecently = new Set();
 
 client.on("error", error => {
 console.log(error)
